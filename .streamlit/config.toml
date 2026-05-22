@@ -1,0 +1,7 @@
+[server]
+# 업로드 최대 크기 (MB) — 기본값 200MB → 4GB로 확대
+maxUploadSize = 4096
+headless = true           # 브라우저 자동 열기 비활성화 (서버 운영 시 안정적)
+
+[browser]
+gatherUsageStats = false  # 익명 사용 통계 수집 끄기
